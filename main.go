@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"net/http"
+)
 
 func main() {
-    fmt.Println("Implement me.")
+	http.HandleFunc("/measure", measureHandler)
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
