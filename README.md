@@ -66,3 +66,8 @@ When deploying your application to the provided Azure VM, please use the followi
 
 `PORT = 8080 + your github fork number`
 
+### Solution
+
+The homework is deployed on the ainize.ai platform and is accessible [here](https://ainize.ai/Ben10k/go-homework)
+
+The link to measure the latency to https://15min.lt: https://master-go-homework-ben10k.endpoint.ainize.ai/measure?host=15min.lt&protocol=https&samples=10
